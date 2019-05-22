@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    tools:context=".OnlineLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="ID : "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PhoneNumber: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <Button
+        android:background="@color/colorAccent"
+        android:id="@+id/c"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Confirm"
+        android:onClick="onClick"
+        android:textSize="20sp"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>
